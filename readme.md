@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/xK7DZMeu)
+
 # Setting Up a Tailwind CSS Environment
 
 ## Description:
@@ -24,13 +25,24 @@ Let's do some steps so that we understand the importance of the TailwindCSS webs
 2.  **Installation Guide:**
 
     - Navigate to the "Installation" section on the official Tailwind CSS website. You can find it here: [Installation](https://tailwindcss.com/docs/installation).
+
     - How many ways are there to install Tailwind CSS? What does the page say about the pros and cons of each method?
+
+    You can install it with manual installation; using CDN; through npm; the Tailwind CLI.
+
     - Use the CDN method to see if you can get Tailwind CSS working in your HTML file. You can use the CDN link provided in the installation guide.
     - Once you get it, delete the CDN link and follow the instructions to install Tailwind CSS with the "Using PostCSS" guide. If you don't have it already, you'll need to install Node.js and npm to complete this step.
 
 3.  **HTML Page:**
 
     - You already have a sample HTML page in this folder. This has certain TailwindCSS classes already applied to it. What are these classes doing?
+
+     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+     This is used to import the Tailwind CSS library from a CDN (Content Delivery Network) using the href attribute. The href attribute specifies the URL of the external resource to be imported. In this case, the URL is pointing to the latest version of the Tailwind CSS library hosted on the jsDelivr CDN.
+
+    <link href="/dist/output.css" rel="stylesheet">
+    This is used to import a custom CSS file from the local file system using the href attribute. The href attribute specifies the path of the local CSS file to be imported. In this case, the path is pointing to a file named "output.css" located in the "dist" folder of the project.
+
     - Have a look at the documentation to see what these classes are doing. You can find it here: [Tailwind CSS Documentation](https://tailwindcss.com/docs).
 
 4.  **Using Tailwind Classes:**
